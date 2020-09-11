@@ -1,5 +1,10 @@
 package arcade
 
+
+/*Given a string consisting of lowercase English letters, find the largest square number which can be obtained by reordering the string's characters and replacing them with any digits you need (leading zeros are not allowed) where same characters always map to the same digits and different characters always map to different digits.
+
+If there is no solution, return -1.*/
+
 fun constructSquare(s: String): Int {
     val max = getMaxPossibleSqrNum(s.length)
     val min = getLeastPossibleSqrNum(s.length)
